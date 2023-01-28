@@ -7,3 +7,6 @@
 <img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" />
 <img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" /><br><br>
 Tetris is a tile-matching puzzle video game originally designed and programmed by Soviet Russian software engineer Alexey Pajitnov. The first playable version was completed on June 6, 1984, while he was working for the Dorodnitsyn Computing Centre of the Academy of Sciences of the Soviet Union in Moscow. <br>
+<br><br>
+## This is a preview of the pillow I made :)
+<img src="https://user-images.githubusercontent.com/119101655/215273297-8f035113-c8ca-476f-9ee3-ae58bba936a3.gif" alt="tetris vodio"/>

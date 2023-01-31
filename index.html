@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TETRIS GAME</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="div-canvas">
-            <canvas id="canvas"></canvas>
+    <div class="text-tetris">
+        <!-- header text for teris game -->
+        <h1>TETRIS</h1>
+    </div>
+
+    <div id="left" class="border"> <!-- The left towards -->
+        <!-- This basic play game -->
+        <canvas id="container" cellspan="0" colspan="0"></canvas>
+      </div>
+    
+    <div class="right"> <!-- The right towards -->
+        <div class="info">
+            <!-- This is calculation -->
+            <div id="score">Score: 0</div>
+            <div id="level">Level: 0</div>
+            <div id="lines">Lines: 0</div>
         </div>
-        <div class="all-account">
-            <h1 id="text-tetris">TETRIS</h1>
-            <canvas id="canvas-left"></canvas>
-            <div class="account"><br>Score: 0</div>
-            <div class="account">Lines: 0</div>
-            <div class="account">Level: 0<br><br></div>
-            <div class="buttom">
-                <button id="play-button">PLAY</button>
-            </div>
+
+        <div class="border" style="width: 90px; height: 90px; background: red;">
+            <!-- The preview -->
+            <canvas id="preview"></canvas>
         </div>
-    </header>
+
+
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
